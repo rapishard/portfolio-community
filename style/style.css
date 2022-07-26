@@ -111,6 +111,20 @@ body {
   color: #535353;
 }
 
+.text-card4 {
+  position: absolute;
+  width: 86px;
+  height: 23px;
+  left: 270px;
+  top: 1238px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
 .what h1 {
   /* What i do */
   position: absolute;
@@ -455,9 +469,33 @@ body {
   text-align: left;
   background-color: #212121;
   justify-content: space-between;
-  margin-top: 1520px;
+  margin-top: 120px;
   margin-left: 80px;
   height: 190px;
+}
+
+.card-f {
+  padding: 10px;
+  text-align: left;
+  background-color: #212121;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-left: 80px;
+  height: 190px;
+}
+
+.card4 {
+  padding: 10px;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 1230px;
+  margin-left: 60px;
+  height: 190px;
+}
+
+.column4 {
+  float: left;
+  width: 20%;
 }
 
 .column {
@@ -474,4 +512,23 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.ellipse {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 33px;
+  top: 288px;
+  margin-top: 970px;
+  margin-left: 220px;
+}
+
+.ellipse4 {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 563px;
+  top: 1158px;
+  background: #212121;
 }/*# sourceMappingURL=style.css.map */
