@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style the counter cards */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: left;
+    background-color: #000000;
+    color: white;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.cardColumn {
+    flex-direction: column;
+}
+
+.card2 {
+    height: 600px;
+    margin: 0;
+}
+
+.cards {
+    float: left;
+    display: block;
+    width: 50%;
+    height: 50px;
+}

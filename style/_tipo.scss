@@ -34,3 +34,48 @@
             line-height: 23px;
             text-align: center;
         }
+        
+        .h1-hero {
+            position: absolute;
+            width: 453px;
+            height: 124px;
+            left: 128px;
+            top: 395px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 62px;
+        }
+        
+        .p-hero {
+            /* Frontend Developer */
+            position: absolute;
+            width: 205px;
+            height: 23px;
+            left: 128px;
+            top: 528px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            /* Gray 3 */
+            color: #828282;
+            margin-top: 40px;
+        }
+        
+        .p-button {
+            /* Download CV */
+            position: absolute;
+            width: 89px;
+            height: 18px;
+            left: 157px;
+            top: 598px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }

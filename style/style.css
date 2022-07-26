@@ -57,9 +57,53 @@ body {
   text-align: center;
 }
 
+.h1-hero {
+  position: absolute;
+  width: 453px;
+  height: 124px;
+  left: 128px;
+  top: 395px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+}
+
+.p-hero {
+  /* Frontend Developer */
+  position: absolute;
+  width: 205px;
+  height: 23px;
+  left: 128px;
+  top: 528px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  /* Gray 3 */
+  color: #828282;
+  margin-top: 40px;
+}
+
+.p-button {
+  /* Download CV */
+  position: absolute;
+  width: 89px;
+  height: 18px;
+  left: 157px;
+  top: 598px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
 .navigation {
   height: 70px;
-  background: rgb(7, 7, 7);
 }
 
 .nav-container {
@@ -73,7 +117,7 @@ body {
   */
   float: left;
   width: 249px;
-  height: 47px;
+  height: 27px;
   line-height: 70px;
   text-transform: uppercase;
   font-size: 1.4em;
@@ -101,7 +145,6 @@ nav ul li a {
   display: block;
   padding: 10px 40px 0 20px;
   line-height: 50px;
-  background: rgb(7, 7, 7);
   color: #f1eaea;
   text-decoration: none;
 }
@@ -142,7 +185,6 @@ nav ul li ul li a {
   position: absolute;
   top: 0;
   right: 0;
-  background: rgb(7, 7, 7);
   height: 70px;
   width: 70px;
 }
@@ -234,11 +276,172 @@ nav ul li ul li a {
   width: 745px;
   height: 136px;
   left: 347px;
-  top: 984px;
+  top: 894px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   text-align: center;
+}
+
+.article {
+  margin-right: 32px;
+  margin-bottom: 32px;
+  width: 382px;
+}
+
+.page {
+  display: flex;
+}
+
+.page > * {
+  padding: 1rem;
+}
+
+.sidebar {
+  background: var(--color-primary-x-light);
+  outline: 1px solid var(--color-primary);
+  width: 14rem;
+}
+
+/* Extrinsic sizes on this page simulate the small viewport for you */
+/* 
+body {
+    width: 400px;
+    height: 400px;
+    min-height: unset;
+    padding: 2rem;
+    border: 1px solid var(--color-stroke);
+    background: var(--color-off-white);
+    margin: 1rem auto;
+} */
+.page {
+  border: 1px solid var(--color-stroke);
+}
+
+.margin-b {
+  margin-bottom: 30px;
+}
+
+.margin-t {
+  margin-top: 30px;
+  position: absolute;
+  width: 745px;
+  height: 136px;
+  left: 70px;
+  top: 4px;
+}
+
+.img {
+  box-sizing: border-box;
+  position: absolute;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Rectangle 8.jpg");
+  width: 596.89px;
+  height: 596.89px;
+  left: 718.56px;
+  top: 213.56px;
+  background: #1E1D1D;
+  /* Gray 2 */
+  border: 1px solid #4F4F4F;
+}
+
+.hero-back {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Rectangle 8.jpg");
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 692px;
+  top: 187px;
+}
+
+.hero-image {
+  position: absolute;
+  width: 59.89px;
+  height: 59.89px;
+  left: 718.56px;
+  top: 213.56px;
+  background: #1E1D1D;
+  /* Gray 2 */
+  border: 1px solid #4F4F4F;
+}
+
+.circular-square {
+  width: 300px;
+  height: 300px;
+  border-radius: 999em;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.button-s {
+  position: absolute;
+  width: 143px;
+  height: 42px;
+  left: 130px;
+  top: 586px;
+  /* Green 2 */
+  background: #27AE60;
+  margin-top: 50px;
+  color: white;
+}
+
+.button-ns {
+  box-sizing: border-box;
+  position: absolute;
+  width: 143px;
+  height: 42px;
+  left: 283px;
+  top: 586px;
+  background: #171717;
+  /* Gray 6 */
+  border: 1px solid #F2F2F2;
+  margin-left: 10px;
+  margin-top: 50px;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.cardColumn {
+  flex-direction: column;
+}
+
+.card2 {
+  height: 600px;
+  margin: 0;
+}
+
+.cards {
+  float: left;
+  display: block;
+  width: 50%;
+  height: 50px;
 }/*# sourceMappingURL=style.css.map */

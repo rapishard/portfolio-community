@@ -1,0 +1,54 @@
+    .img {
+        box-sizing: border-box;
+        position: absolute;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Rectangle 8.jpg");
+        width: 596.89px;
+        height: 596.89px;
+        left: 718.56px;
+        top: 213.56px;
+        background: #1E1D1D;
+        /* Gray 2 */
+        border: 1px solid #4F4F4F;
+    }
+    
+    .hero-back {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Rectangle 8.jpg");
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 692px;
+        top: 187px;
+    }
+    
+    .hero-image {
+        position: absolute;
+        width: 59.89px;
+        height: 59.89px;
+        left: 718.56px;
+        top: 213.56px;
+        background: #1E1D1D;
+        /* Gray 2 */
+        border: 1px solid #4F4F4F;
+    }
+    
+    .circular-square {
+        width: 300px;
+        height: 300px;
+        border-radius: 999em;
+    }
+    
+    .hero-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: black;
+        background-color: #ddd;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .hero-text button:hover {
+        background-color: #555;
+        color: white;
+    }
