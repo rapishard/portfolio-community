@@ -15,13 +15,15 @@ $nav-font-color: #f1eaea;
 
 .brand {
     position: absolute;
-    padding-left: 40px;
+    /*     padding-left: 20px;
+ */
     float: left;
     width: 249px;
     height: 47px;
     line-height: $nav-height;
     text-transform: uppercase;
     font-size: 1.4em;
+    margin-left: 40px;
     &:hover {}
     a,
     a:visited {
@@ -41,7 +43,7 @@ nav {
             position: relative;
             a {
                 display: block;
-                padding: 10px 20px 0 20px;
+                padding: 10px 40px 0 20px;
                 line-height: 50px;
                 background: $nav-background;
                 color: $nav-font-color;
