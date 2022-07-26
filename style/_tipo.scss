@@ -1,81 +1,111 @@
-        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
-        .text {
-            font-family: DM Sans;
-            color: #FFFFFF;
-        }
-        
-        .h1 {
-            /*             position: absolute;
+            @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+            .text {
+                font-family: DM Sans;
+                color: #FFFFFF;
+            }
+            
+            .h1 {
+                /*             position: absolute;
  */
-            width: 144px;
-            height: 62px;
-            left: 648px;
-            top: 884px;
-            font-family: 'DM Sans';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 48px;
-            line-height: 62px;
-            text-align: center;
-            margin-left: 300px;
-        }
-        
-        .subtitle {
-            /*         position: absolute;
+                width: 144px;
+                height: 62px;
+                left: 648px;
+                top: 884px;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 62px;
+                text-align: center;
+                margin-left: 300px;
+            }
+            
+            .subtitle {
+                /*         position: absolute;
  */
-            width: 745px;
-            height: 136px;
-            left: 347px;
-            top: 984px;
-            font-family: 'DM Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 23px;
-            text-align: center;
-        }
-        
-        .h1-hero {
-            position: absolute;
-            width: 453px;
-            height: 124px;
-            left: 128px;
-            top: 395px;
-            font-family: 'DM Sans';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 48px;
-            line-height: 62px;
-        }
-        
-        .p-hero {
-            /* Frontend Developer */
-            position: absolute;
-            width: 205px;
-            height: 23px;
-            left: 128px;
-            top: 528px;
-            font-family: 'DM Sans';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 23px;
-            /* Gray 3 */
-            color: #828282;
-            margin-top: 40px;
-        }
-        
-        .p-button {
-            /* Download CV */
-            position: absolute;
-            width: 89px;
-            height: 18px;
-            left: 157px;
-            top: 598px;
-            font-family: 'DM Sans';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 18px;
-            color: #FFFFFF;
-        }
+                width: 745px;
+                height: 136px;
+                left: 347px;
+                top: 984px;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                text-align: center;
+            }
+            
+            .h1-hero {
+                position: absolute;
+                width: 453px;
+                height: 124px;
+                left: 128px;
+                top: 395px;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 62px;
+            }
+            
+            .p-hero {
+                /* Frontend Developer */
+                position: absolute;
+                width: 205px;
+                height: 23px;
+                left: 128px;
+                top: 528px;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 23px;
+                /* Gray 3 */
+                color: #828282;
+                margin-top: 40px;
+            }
+            
+            .p-button {
+                /* Download CV */
+                position: absolute;
+                width: 89px;
+                height: 18px;
+                left: 157px;
+                top: 598px;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                color: #FFFFFF;
+            }
+            
+            .text-card {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 37px;
+                color: #535353;
+            }
+            
+            .what h1 {
+                /* What i do */
+                position: absolute;
+                width: 222px;
+                height: 60.03px;
+                left: 307px;
+                top: 1407px;
+                /* position: absolute;
+                width: 222px;
+                height: 60.03px;
+                left: 607px;
+                top: 1407px; */
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 62px;
+                text-align: center;
+                color: #FFFFFF;
+            }

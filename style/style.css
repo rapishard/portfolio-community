@@ -102,6 +102,36 @@ body {
   color: #FFFFFF;
 }
 
+.text-card {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 37px;
+  color: #535353;
+}
+
+.what h1 {
+  /* What i do */
+  position: absolute;
+  width: 222px;
+  height: 60.03px;
+  left: 307px;
+  top: 1407px;
+  /* position: absolute;
+  width: 222px;
+  height: 60.03px;
+  left: 607px;
+  top: 1407px; */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 .navigation {
   height: 70px;
 }
@@ -421,27 +451,27 @@ body {
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  padding: 10px;
   text-align: left;
-  background-color: #000000;
-  color: white;
+  background-color: #212121;
   justify-content: space-between;
-  margin: 30px;
+  margin-top: 1520px;
+  margin-left: 80px;
+  height: 190px;
 }
 
-.cardColumn {
-  flex-direction: column;
-}
-
-.card2 {
-  height: 600px;
-  margin: 0;
-}
-
-.cards {
+.column {
   float: left;
-  display: block;
-  width: 50%;
-  height: 50px;
+  width: 25%;
+}
+
+.row {
+  margin: 0 85px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }/*# sourceMappingURL=style.css.map */

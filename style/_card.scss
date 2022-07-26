@@ -6,27 +6,29 @@
 /* Style the counter cards */
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    padding: 10px;
     text-align: left;
-    background-color: #000000;
-    color: white;
+    background-color: #212121;
     justify-content: space-between;
-    margin: 30px;
+    margin-top: 1520px;
+    margin-left: 80px;
+    height: 190px;
 }
 
-.cardColumn {
-    flex-direction: column;
-}
-
-.card2 {
-    height: 600px;
-    margin: 0;
-}
-
-.cards {
+.column {
     float: left;
-    display: block;
-    width: 50%;
-    height: 50px;
+    width: 25%;
+}
+
+.row {
+    margin: 0 85px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
