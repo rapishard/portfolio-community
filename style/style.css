@@ -8,8 +8,8 @@ body {
   gap: 112px;
   margin-top: 28px;
   position: relative;
-  width: 1440px;
-  height: 3159px;
+  width: 1300px;
+  height: 2959px;
   background: #171717;
 }
 
@@ -17,10 +17,6 @@ body {
   margin-bottom: 112px;
 }
 
-/* 
-.content {
-    padding: 16px 0px 16px 16px
-} */
 .text {
   font-family: DM Sans;
   color: #FFFFFF;
@@ -598,8 +594,8 @@ nav ul li ul li a {
   position: absolute;
   width: 134px;
   height: 18px;
-  left: 660px;
-  top: 2848px;
+  left: 670px;
+  top: 2800px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
