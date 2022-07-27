@@ -440,6 +440,11 @@ nav ul li ul li a {
   height: 190px;
 }
 
+.column {
+  float: left;
+  width: 25%;
+}
+
 .card4 {
   padding: 5px;
   text-align: center;
@@ -452,11 +457,6 @@ nav ul li ul li a {
 .column4 {
   float: left;
   width: 20%;
-}
-
-.column {
-  float: left;
-  width: 25%;
 }
 
 .row {
@@ -496,6 +496,34 @@ nav ul li ul li a {
 .column-skill {
   float: left;
   width: 10%;
+}
+
+.card-e {
+  padding: 5px;
+  text-align: left;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-left: 80px;
+  height: 70px;
+}
+
+.column-e {
+  float: left;
+  width: 40%;
+}
+
+.card-m {
+  padding: 5px;
+  text-align: left;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 80px;
+  height: 190px;
+}
+
+.column-m {
+  float: left;
+  width: 87%;
 }
 
 .ellipse1 {
@@ -570,8 +598,8 @@ nav ul li ul li a {
   position: absolute;
   width: 134px;
   height: 18px;
-  left: 654px;
-  top: 3048px;
+  left: 660px;
+  top: 2848px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
@@ -579,4 +607,47 @@ nav ul li ul li a {
   line-height: 18px;
   /* Gray 2 */
   color: #4F4F4F;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: #4F4F4F;
+  background-color: #000000;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 40px 10px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 430px;
+  margin-top: 15px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.boxForm {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1168px;
+  height: 235px;
+  left: 141px;
+  top: 2179px;
 }/*# sourceMappingURL=style.css.map */

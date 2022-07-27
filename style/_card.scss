@@ -1,73 +1,99 @@
-* {
-    box-sizing: border-box;
-}
-
-.card {
-    padding: 5px;
-    text-align: left;
-    background-color: #212121;
-    justify-content: space-between;
-    margin-top: 150px;
-    margin-left: 80px;
-    height: 190px;
-}
-
-.card4 {
-    padding: 5px;
-    text-align: center;
-    justify-content: space-between;
-    margin-top: 620px;
-    margin-left: 50px;
-    height: 190px;
-}
-
-.column4 {
-    float: left;
-    width: 20%;
-}
-
-.column {
-    float: left;
-    width: 25%;
-}
-
-.row {
-    margin: 0 85px 20px;
-}
-
-
-/* Clear floats after the columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.card-h {
-    padding: 5px;
-    text-align: center;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 200px;
-    height: 180px;
-}
-
-.column-h {
-    float: left;
-    width: 20%;
-}
-
-.card-skill {
-    padding: 0px;
-    text-align: center;
-    justify-content: space-between;
-    top: 1679px;
-    margin-left: 120px;
-    height: 180px;
-}
-
-.column-skill {
-    float: left;
-    width: 10%;
-}
+        * {
+            box-sizing: border-box;
+        }
+        
+        .card {
+            padding: 5px;
+            text-align: left;
+            background-color: #212121;
+            justify-content: space-between;
+            margin-top: 150px;
+            margin-left: 80px;
+            height: 190px;
+        }
+        
+        .column {
+            float: left;
+            width: 25%;
+        }
+        
+        .card4 {
+            padding: 5px;
+            text-align: center;
+            justify-content: space-between;
+            margin-top: 620px;
+            margin-left: 50px;
+            height: 190px;
+        }
+        
+        .column4 {
+            float: left;
+            width: 20%;
+        }
+        
+        .row {
+            margin: 0 85px 20px;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .card-h {
+            padding: 5px;
+            text-align: center;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-left: 200px;
+            height: 180px;
+        }
+        
+        .column-h {
+            float: left;
+            width: 20%;
+        }
+        
+        .card-skill {
+            padding: 0px;
+            text-align: center;
+            justify-content: space-between;
+            top: 1679px;
+            margin-left: 120px;
+            height: 180px;
+        }
+        
+        .column-skill {
+            float: left;
+            width: 10%;
+        }
+        
+        .card-e {
+            padding: 5px;
+            text-align: left;
+            justify-content: space-between;
+            margin-top: 5px;
+            margin-left: 80px;
+            height: 70px;
+        }
+        
+        .column-e {
+            float: left;
+            width: 40%;
+        }
+        
+        .card-m {
+            padding: 5px;
+            text-align: left;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-left: 80px;
+            height: 190px;
+        }
+        
+        .column-m {
+            float: left;
+            width: 87%;
+        }
