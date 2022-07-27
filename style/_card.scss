@@ -3,7 +3,7 @@
 }
 
 .card {
-    padding: 10px;
+    padding: 5px;
     text-align: left;
     background-color: #212121;
     justify-content: space-between;
@@ -13,11 +13,11 @@
 }
 
 .card4 {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     justify-content: space-between;
     margin-top: 620px;
-    margin-left: 60px;
+    margin-left: 50px;
     height: 190px;
 }
 
@@ -56,4 +56,18 @@
 .column-h {
     float: left;
     width: 20%;
+}
+
+.card-skill {
+    padding: 0px;
+    text-align: center;
+    justify-content: space-between;
+    top: 1679px;
+    margin-left: 130px;
+    height: 180px;
+}
+
+.column-skill {
+    float: left;
+    width: 10%;
 }
