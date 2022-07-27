@@ -489,7 +489,7 @@ nav ul li ul li a {
   text-align: center;
   justify-content: space-between;
   top: 1679px;
-  margin-left: 130px;
+  margin-left: 120px;
   height: 180px;
 }
 
@@ -548,4 +548,35 @@ nav ul li ul li a {
   background: #212121;
   /* Gray 1 */
   border: 1px solid #333333;
+}
+
+.get h1 {
+  position: absolute;
+  width: 287px;
+  height: 62px;
+  left: 275px;
+  top: 1994px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer {
+  /* © Oyindamola 2020 */
+  position: absolute;
+  width: 134px;
+  height: 18px;
+  left: 654px;
+  top: 3048px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* Gray 2 */
+  color: #4F4F4F;
 }/*# sourceMappingURL=style.css.map */
