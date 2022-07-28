@@ -654,6 +654,10 @@ body {
     left: 193px;
     top: 386px;
   }
+  .hero-image {
+    width: 450.89px;
+    height: 450.89px;
+  }
   .card-h {
     padding: 0px;
     text-align: center;
@@ -699,24 +703,12 @@ body {
     top: 984px;
     font-size: 15px;
   }
-  .card4 {
-    padding: 5px;
-    text-align: center;
-    justify-content: space-between;
-    margin-top: 820px;
-    margin-left: 30px;
-    height: 190px;
-  }
-  .column4 {
-    float: left;
-    width: 30%;
-  }
   .My-Skills h1 {
     position: absolute;
     width: 222px;
     height: 60.03px;
     left: -37px;
-    top: 2157px;
+    top: 3157px;
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
@@ -731,13 +723,16 @@ body {
     width: 200px;
     height: 835px;
     left: 80px;
-    top: 2250px;
+    top: 3250px;
+    background: none;
+    /* Gray 1 */
+    border: 1px solid #000000;
   }
   .card-skill {
     padding: 0px;
     text-align: center;
     justify-content: space-between;
-    top: 2179px;
+    top: 2779px;
     margin-left: 20px;
     height: 180px;
   }
@@ -750,7 +745,7 @@ body {
     width: 117px;
     height: 62px;
     left: 5px;
-    top: 3154px;
+    top: 4054px;
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
@@ -765,7 +760,7 @@ body {
     width: 328px;
     height: 235px;
     left: -15px;
-    top: 3269px;
+    top: 4169px;
   }
   .card-e {
     padding: 5px;
@@ -813,7 +808,28 @@ body {
     width: 220px;
     height: 835px;
     left: 20px;
-    top: 1479px;
+    top: 2079px;
+  }
+  .boxSkill3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 220px;
+    height: 835px;
+    left: 30px;
+    top: 579px;
+    justify-content: center;
+  }
+  .card4 {
+    padding: 5px;
+    text-align: center;
+    margin-top: 750px;
+    margin-left: 50px;
+    margin-bottom: -550px;
+    height: 10px;
+  }
+  .column4 {
+    float: left;
+    width: 30%;
   }
   .text-card {
     font-family: "DM Sans";
@@ -829,7 +845,7 @@ body {
     width: 134px;
     height: 18px;
     left: 150px;
-    top: 4100px;
+    top: 5000px;
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 500;
@@ -840,10 +856,10 @@ body {
   }
   .what h1 {
     position: absolute;
-    width: 152px;
+    width: 132px;
     height: 60.03px;
-    left: 7px;
-    top: 1507px;
+    left: -7px;
+    top: 2107px;
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
