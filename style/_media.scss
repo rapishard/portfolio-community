@@ -1,289 +1,314 @@
- @media all and (min-width: 360px) and (max-width: 512px) {
-     .html,
-     body {
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         gap: 112px;
-         margin-top: 28px;
-         position: relative;
-         width: 390px;
-         height: 2959px;
-         background: #171717;
-     }
-     .h1-hero {
-         position: absolute;
-         width: 253px;
-         height: 124px;
-         left: 40px;
-         top: 175px;
-         font-size: 28px;
-     }
-     .p-hero {
-         /* Frontend Developer */
-         position: absolute;
-         width: 205px;
-         height: 23px;
-         left: 30px;
-         top: 348px;
-     }
-     .button-s {
-         position: absolute;
-         width: 143px;
-         height: 42px;
-         left: 40px;
-         top: 386px;
-     }
-     .button-ns {
-         box-sizing: border-box;
-         position: absolute;
-         width: 143px;
-         height: 42px;
-         left: 193px;
-         top: 386px;
-     }
-     .hero-image {
-         width: 450.89px;
-         height: 450.89px;
-     }
-     .card-h {
-         padding: 0px;
-         text-align: center;
-         margin-top: 410px;
-         margin-left: 0px;
-         height: 10px;
-     }
-     .column-h {
-         float: left;
-         width: 10%;
-     }
-     .row {
-         margin: 0 0px 0px;
-     }
-     .about {
-         position: absolute;
-         width: 445px;
-         height: 136px;
-         left: 7px;
-         top: 994px;
-     }
-     .h1 {
-         /*             position: absolute;
+                         @media all and (min-width: 360px) and (max-width: 512px) {
+                             .html,
+                             body {
+                                 flex-direction: column;
+                                 justify-content: center;
+                                 align-items: center;
+                                 gap: 112px;
+                                 margin-top: 8px;
+                                 position: relative;
+                                 width: 390px;
+                                 height: 2999px;
+                                 background: #171717;
+                             }
+                             .brand {
+                                 position: absolute;
+                                 /*     padding-left: 20px;
+        */
+                                 float: left;
+                                 width: 29px;
+                                 height: 27px;
+                                 line-height: 40px;
+                                 text-transform: uppercase;
+                                 font-size: 1.1em;
+                                 margin-left: 40px;
+                             }
+                             .nav-container {
+                                 max-width: 390px;
+                                 margin: 0 auto;
+                             }
+                             nav ul li a {
+                                 display: inline;
+                                 line-height: 50px;
+                                 color: #f1eaea;
+                                 text-decoration: none;
+                             }
+                             .h1-hero {
+                                 position: absolute;
+                                 width: 253px;
+                                 height: 124px;
+                                 left: 40px;
+                                 top: 175px;
+                                 font-size: 28px;
+                             }
+                             .p-hero {
+                                 /* Frontend Developer */
+                                 position: absolute;
+                                 width: 205px;
+                                 height: 23px;
+                                 left: 30px;
+                                 top: 348px;
+                             }
+                             .button-s {
+                                 position: absolute;
+                                 width: 143px;
+                                 height: 42px;
+                                 left: 40px;
+                                 top: 386px;
+                             }
+                             .button-ns {
+                                 box-sizing: border-box;
+                                 position: absolute;
+                                 width: 143px;
+                                 height: 42px;
+                                 left: 193px;
+                                 top: 386px;
+                             }
+                             .hero-image {
+                                 width: 450.89px;
+                                 height: 450.89px;
+                             }
+                             .card-h {
+                                 padding: 0px;
+                                 text-align: center;
+                                 margin-top: 410px;
+                                 margin-left: -40px;
+                                 height: 10px;
+                                 width: 222px;
+                             }
+                             .column-h {
+                                 float: left;
+                                 width: 10%;
+                             }
+                             .row {
+                                 margin: 0 0px 0px;
+                             }
+                             .about {
+                                 position: absolute;
+                                 width: 445px;
+                                 height: 136px;
+                                 left: 57px;
+                                 top: 994px;
+                             }
+                             .h1 {
+                                 /*             position: absolute;
                                                                                                 */
-         width: 14px;
-         height: 62px;
-         left: 248px;
-         top: 884px;
-         font-family: "DM Sans";
-         font-style: normal;
-         font-weight: 700;
-         font-size: 28px;
-         line-height: 62px;
-         text-align: center;
-         margin-left: 130px;
-     }
-     .subtitle {
-         /*         position: absolute;
+                                 width: 14px;
+                                 height: 62px;
+                                 left: 248px;
+                                 top: 884px;
+                                 font-family: "DM Sans";
+                                 font-style: normal;
+                                 font-weight: 700;
+                                 font-size: 28px;
+                                 line-height: 62px;
+                                 text-align: center;
+                                 margin-left: 130px;
+                             }
+                             .subtitle {
+                                 /*         position: absolute;
                                                                                                 */
-         width: 345px;
-         height: 156px;
-         left: 347px;
-         top: 984px;
-         font-size: 15px;
-     }
-     .My-Skills h1 {
-         position: absolute;
-         width: 222px;
-         height: 60.03px;
-         left: -37px;
-         top: 3157px;
-         font-family: "DM Sans";
-         font-style: normal;
-         font-weight: 700;
-         font-size: 28px;
-         line-height: 62px;
-         text-align: center;
-         color: #FFFFFF;
-     }
-     .boxSkill {
-         box-sizing: border-box;
-         position: absolute;
-         width: 200px;
-         height: 835px;
-         left: 80px;
-         top: 3250px;
-         background: none;
-         /* Gray 1 */
-         border: 1px solid #000000;
-     }
-     .card-skill {
-         padding: 0px;
-         text-align: center;
-         justify-content: space-between;
-         top: 2779px;
-         margin-left: 20px;
-         height: 180px;
-     }
-     .column-skill {
-         float: left;
-         width: 40%;
-     }
-     .get h1 {
-         position: absolute;
-         width: 117px;
-         height: 62px;
-         left: 5px;
-         top: 4054px;
-         font-family: "DM Sans";
-         font-style: normal;
-         font-weight: 700;
-         font-size: 28px;
-         line-height: 62px;
-         text-align: center;
-         color: #FFFFFF;
-     }
-     .boxForm {
-         box-sizing: border-box;
-         position: absolute;
-         width: 328px;
-         height: 235px;
-         left: -15px;
-         top: 4169px;
-     }
-     .card-e {
-         padding: 5px;
-         text-align: left;
-         justify-content: space-between;
-         margin-top: 5px;
-         margin-left: 90px;
-         height: 110px;
-     }
-     .column-e {
-         float: left;
-         width: 60%;
-     }
-     input[type=submit] {
-         background-color: #04AA6D;
-         font-family: "DM Sans";
-         font-style: normal;
-         font-weight: 500;
-         font-size: 14px;
-         line-height: 18px;
-         color: #FFFFFF;
-         padding: 10px 40px 10px 40px;
-         border: none;
-         border-radius: 4px;
-         cursor: pointer;
-         margin-left: 60px;
-         margin-top: 15px;
-     }
-     .card {
-         padding: 5px;
-         text-align: left;
-         background-color: #212121;
-         justify-content: space-between;
-         margin-top: 150px;
-         margin-left: 80px;
-         height: 190px;
-     }
-     .column {
-         float: left;
-         width: 100%;
-     }
-     .boxSkill2 {
-         box-sizing: border-box;
-         position: absolute;
-         width: 220px;
-         height: 835px;
-         left: 20px;
-         top: 2079px;
-     }
-     .boxSkill3 {
-         box-sizing: border-box;
-         position: absolute;
-         width: 220px;
-         height: 835px;
-         left: 30px;
-         top: 579px;
-         justify-content: center;
-     }
-     .card4 {
-         padding: 5px;
-         text-align: center;
-         margin-top: 750px;
-         margin-left: 50px;
-         margin-bottom: -550px;
-         height: 10px;
-     }
-     .column4 {
-         float: left;
-         width: 30%;
-     }
-     .text-card {
-         font-family: "DM Sans";
-         font-style: normal;
-         font-weight: 500;
-         font-size: 26px;
-         line-height: 37px;
-         color: #535353;
-     }
-     .footer {
-         /* © Oyindamola 2020 */
-         position: absolute;
-         width: 134px;
-         height: 18px;
-         left: 150px;
-         top: 5000px;
-         font-family: "DM Sans";
-         font-style: normal;
-         font-weight: 500;
-         font-size: 14px;
-         line-height: 18px;
-         /* Gray 2 */
-         color: #4F4F4F;
-     }
-     .what h1 {
-         position: absolute;
-         width: 132px;
-         height: 60.03px;
-         left: -7px;
-         top: 2107px;
-         font-family: "DM Sans";
-         font-style: normal;
-         font-weight: 700;
-         font-size: 28px;
-         line-height: 62px;
-         text-align: center;
-         color: #FFFFFF;
-     }
- }
- 
- @media all and (min-width: 512px) and (max-width: 1024px) {
-     .html,
-     body {
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         gap: 112px;
-         margin-top: 28px;
-         position: relative;
-         width: 1300px;
-         height: 2959px;
-         background: #171717;
-     }
- }
- 
- @media all and (min-width: 1200px) and (max-width: 2560px) {
-     .html,
-     body {
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         gap: 112px;
-         margin-top: 28px;
-         position: relative;
-         width: 1300px;
-         height: 2959px;
-         background: #171717;
-     }
- }
+                                 width: 345px;
+                                 height: 156px;
+                                 left: 347px;
+                                 top: 984px;
+                                 font-size: 15px;
+                                 /*          margin-left: 50px;
+ */
+                             }
+                             .My-Skills h1 {
+                                 position: absolute;
+                                 width: 222px;
+                                 height: 60.03px;
+                                 left: -27px;
+                                 top: 3117px;
+                                 font-family: "DM Sans";
+                                 font-style: normal;
+                                 font-weight: 700;
+                                 font-size: 28px;
+                                 line-height: 62px;
+                                 text-align: center;
+                                 color: #FFFFFF;
+                             }
+                             .boxSkill {
+                                 box-sizing: border-box;
+                                 position: absolute;
+                                 width: 200px;
+                                 height: 835px;
+                                 left: 80px;
+                                 top: 3220px;
+                                 background: none;
+                                 /* Gray 1 */
+                                 border: 1px solid #000000;
+                             }
+                             .card-skill {
+                                 padding: 0px;
+                                 text-align: center;
+                                 justify-content: space-between;
+                                 top: 2779px;
+                                 margin-left: 20px;
+                                 height: 180px;
+                             }
+                             .column-skill {
+                                 float: left;
+                                 width: 40%;
+                             }
+                             .get h1 {
+                                 position: absolute;
+                                 width: 237px;
+                                 height: 62px;
+                                 left: -25px;
+                                 top: 4000px;
+                                 font-family: "DM Sans";
+                                 font-style: normal;
+                                 font-weight: 700;
+                                 font-size: 28px;
+                                 line-height: 62px;
+                                 text-align: center;
+                                 color: #FFFFFF;
+                             }
+                             .boxForm {
+                                 box-sizing: border-box;
+                                 position: absolute;
+                                 width: 328px;
+                                 height: 235px;
+                                 left: 23px;
+                                 top: 4050px;
+                             }
+                             .card-e {
+                                 padding: 5px;
+                                 text-align: left;
+                                 justify-content: space-between;
+                                 margin-top: 5px;
+                                 margin-left: 90px;
+                                 height: 50px;
+                             }
+                             .column-e {
+                                 float: left;
+                                 width: 60%;
+                             }
+                             input[type=submit] {
+                                 background-color: #04AA6D;
+                                 font-family: "DM Sans";
+                                 font-style: normal;
+                                 font-weight: 500;
+                                 font-size: 14px;
+                                 line-height: 18px;
+                                 color: #FFFFFF;
+                                 padding: 10px 40px 10px 40px;
+                                 border: none;
+                                 border-radius: 4px;
+                                 cursor: pointer;
+                                 margin-left: 30px;
+                                 margin-top: 15px;
+                             }
+                             .card {
+                                 padding: 5px;
+                                 text-align: left;
+                                 background-color: #212121;
+                                 justify-content: space-between;
+                                 margin-top: 150px;
+                                 margin-left: 80px;
+                                 height: 190px;
+                             }
+                             .column {
+                                 float: left;
+                                 width: 100%;
+                             }
+                             .boxSkill2 {
+                                 box-sizing: border-box;
+                                 position: absolute;
+                                 width: 220px;
+                                 height: 835px;
+                                 left: 40px;
+                                 top: 2079px;
+                             }
+                             .boxSkill3 {
+                                 box-sizing: border-box;
+                                 position: absolute;
+                                 width: 220px;
+                                 height: 835px;
+                                 left: 70px;
+                                 top: 579px;
+                                 justify-content: center;
+                             }
+                             .card4 {
+                                 padding: 5px;
+                                 text-align: center;
+                                 margin-top: 750px;
+                                 margin-left: 50px;
+                                 margin-bottom: -550px;
+                                 height: 10px;
+                             }
+                             .column4 {
+                                 float: left;
+                                 width: 30%;
+                             }
+                             .text-card {
+                                 font-family: "DM Sans";
+                                 font-style: normal;
+                                 font-weight: 500;
+                                 font-size: 26px;
+                                 line-height: 37px;
+                                 color: #535353;
+                             }
+                             .footer {
+                                 /* © Oyindamola 2020 */
+                                 position: absolute;
+                                 width: 134px;
+                                 height: 18px;
+                                 left: 150px;
+                                 top: 4600px;
+                                 font-family: "DM Sans";
+                                 font-style: normal;
+                                 font-weight: 500;
+                                 font-size: 14px;
+                                 line-height: 18px;
+                                 /* Gray 2 */
+                                 color: #4F4F4F;
+                             }
+                             .what h1 {
+                                 position: absolute;
+                                 width: 132px;
+                                 height: 60.03px;
+                                 left: 20px;
+                                 top: 2107px;
+                                 font-family: "DM Sans";
+                                 font-style: normal;
+                                 font-weight: 700;
+                                 font-size: 28px;
+                                 line-height: 62px;
+                                 text-align: center;
+                                 color: #FFFFFF;
+                             }
+                         }
+                         
+                         @media all and (min-width: 512px) and (max-width: 1024px) {
+                             .html,
+                             body {
+                                 flex-direction: column;
+                                 justify-content: center;
+                                 align-items: center;
+                                 gap: 112px;
+                                 margin-top: 28px;
+                                 position: relative;
+                                 width: 1300px;
+                                 height: 2959px;
+                                 background: #171717;
+                             }
+                         }
+                         
+                         @media all and (min-width: 1200px) and (max-width: 2560px) {
+                             .html,
+                             body {
+                                 flex-direction: column;
+                                 justify-content: center;
+                                 align-items: center;
+                                 gap: 112px;
+                                 margin-top: 28px;
+                                 position: relative;
+                                 width: 1300px;
+                                 height: 2959px;
+                                 background: #171717;
+                             }
+                         }
