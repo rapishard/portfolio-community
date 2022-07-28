@@ -654,6 +654,204 @@ body {
     left: 193px;
     top: 386px;
   }
+  .card-h {
+    padding: 0px;
+    text-align: center;
+    margin-top: 410px;
+    margin-left: 0px;
+    height: 10px;
+  }
+  .column-h {
+    float: left;
+    width: 10%;
+  }
+  .row {
+    margin: 0 0px 0px;
+  }
+  .about {
+    position: absolute;
+    width: 445px;
+    height: 136px;
+    left: 7px;
+    top: 994px;
+  }
+  .h1 {
+    /*             position: absolute;
+                                                                                           */
+    width: 14px;
+    height: 62px;
+    left: 248px;
+    top: 884px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 62px;
+    text-align: center;
+    margin-left: 130px;
+  }
+  .subtitle {
+    /*         position: absolute;
+                                                                                           */
+    width: 345px;
+    height: 156px;
+    left: 347px;
+    top: 984px;
+    font-size: 15px;
+  }
+  .card4 {
+    padding: 5px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 820px;
+    margin-left: 30px;
+    height: 190px;
+  }
+  .column4 {
+    float: left;
+    width: 30%;
+  }
+  .My-Skills h1 {
+    position: absolute;
+    width: 222px;
+    height: 60.03px;
+    left: -37px;
+    top: 2157px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 62px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .boxSkill {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 835px;
+    left: 80px;
+    top: 2250px;
+  }
+  .card-skill {
+    padding: 0px;
+    text-align: center;
+    justify-content: space-between;
+    top: 2179px;
+    margin-left: 20px;
+    height: 180px;
+  }
+  .column-skill {
+    float: left;
+    width: 40%;
+  }
+  .get h1 {
+    position: absolute;
+    width: 117px;
+    height: 62px;
+    left: 5px;
+    top: 3154px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 62px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .boxForm {
+    box-sizing: border-box;
+    position: absolute;
+    width: 328px;
+    height: 235px;
+    left: -15px;
+    top: 3269px;
+  }
+  .card-e {
+    padding: 5px;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 90px;
+    height: 110px;
+  }
+  .column-e {
+    float: left;
+    width: 60%;
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 15px;
+  }
+  .card {
+    padding: 5px;
+    text-align: left;
+    background-color: #212121;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-left: 80px;
+    height: 190px;
+  }
+  .column {
+    float: left;
+    width: 100%;
+  }
+  .boxSkill2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 220px;
+    height: 835px;
+    left: 20px;
+    top: 1479px;
+  }
+  .text-card {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 37px;
+    color: #535353;
+  }
+  .footer {
+    /* © Oyindamola 2020 */
+    position: absolute;
+    width: 134px;
+    height: 18px;
+    left: 150px;
+    top: 4100px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* Gray 2 */
+    color: #4F4F4F;
+  }
+  .what h1 {
+    position: absolute;
+    width: 152px;
+    height: 60.03px;
+    left: 7px;
+    top: 1507px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 62px;
+    text-align: center;
+    color: #FFFFFF;
+  }
 }
 @media all and (min-width: 512px) and (max-width: 1024px) {
   .html,
