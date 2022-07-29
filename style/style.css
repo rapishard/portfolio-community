@@ -137,159 +137,94 @@ body {
   color: #FFFFFF;
 }
 
-.navigation {
-  height: 70px;
+body {
+  overflow-x: hidden;
 }
 
-.nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.brand {
-  position: absolute;
-  /*     padding-left: 20px;
-  */
-  float: left;
-  width: 249px;
-  height: 27px;
-  line-height: 70px;
-  text-transform: uppercase;
-  font-size: 1.4em;
-  margin-left: 40px;
-}
-.brand a,
-.brand a:visited {
-  color: #f1eaea;
-  text-decoration: none;
-}
-
-nav {
-  float: right;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-nav ul li {
-  float: left;
+.menu-container {
   position: relative;
-}
-nav ul li a {
-  display: block;
-  padding: 10px 40px 0 20px;
-  line-height: 50px;
-  color: #f1eaea;
-  text-decoration: none;
-}
-nav ul li a::before {
-  transition: 300ms;
-  height: 5px;
-  content: "";
-  position: absolute;
-  /*                     background-color: $link-hover-color;
-  */
-  width: 0%;
-  bottom: 0px;
-}
-nav ul li a:hover::before {
-  width: 70%;
-}
-nav ul li a:not(:only-child):after {
-  padding-left: 4px;
-  content: " ▾";
-}
-nav ul li ul li {
-  min-width: 190px;
-}
-nav ul li ul li a {
-  padding: 15px;
-  line-height: 20px;
-}
-
-.nav-dropdown {
-  display: none;
-  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  color: #ffffff;
   z-index: 1;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  box-sizing: border-box;
+  margin-left: 200px;
 }
 
-.nav-mobile {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 70px;
-  width: 70px;
+.menu-container a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
 }
 
-@media only screen and (max-width: 799px) {
-  .nav-mobile {
-    display: block;
-  }
-  nav {
-    width: 100%;
-    padding: 70px 0 15px;
-  }
-  nav ul {
-    display: none;
-  }
-  nav ul li {
-    float: none;
-  }
-  nav ul li a {
-    padding: 15px;
-    line-height: 20px;
-  }
-  nav ul li a:hover::before {
-    width: 20%;
-  }
-  nav ul li ul li a {
-    padding-left: 30px;
-  }
-  .nav-dropdown {
-    position: static;
-  }
+.menu-container a:hover {
+  color: #00C6A7;
 }
-#nav-toggle {
-  position: absolute;
-  left: 18px;
-  top: 22px;
-  cursor: pointer;
-  padding: 10px 35px 16px 0px;
-}
-#nav-toggle span,
-#nav-toggle span:before,
-#nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 5px;
-  width: 35px;
-  /*         background: $link-hover-color;
-  */
-  position: absolute;
+
+.menu-container input {
   display: block;
-  content: "";
-  transition: all 300ms ease-in-out;
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+  -webkit-touch-callout: none;
 }
-#nav-toggle span:before {
-  top: -10px;
+
+/* Burger menu */
+.menu-container span {
+  display: block;
+  width: 23px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
-#nav-toggle span:after {
-  bottom: -10px;
+
+.menu-container span:first-child {
+  transform-origin: 0% 0%;
 }
-#nav-toggle.active span {
-  background-color: transparent;
+
+.menu-container span:nth-child(3) {
+  transform-origin: 0% 100%;
 }
-#nav-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0;
+
+.menu-container input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(3px, -1px);
+  background: #030303;
 }
-#nav-toggle.active span:before {
-  transform: rotate(45deg);
+
+.menu-container input:checked ~ span:nth-child(4) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
 }
-#nav-toggle.active span:after {
-  transform: rotate(-45deg);
+
+.menu-container input:checked ~ span:nth-child(3) {
+  transform: rotate(-45deg) translate(-5px, 11px);
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  padding: 10px 0;
+  font-size: 22px;
 }
 
 .about {
@@ -623,27 +558,27 @@ body {
     height: 2999px;
     background: #171717;
   }
-  .brand {
+  .menu-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu {
     position: absolute;
-    /*     padding-left: 20px;
-    */
-    float: left;
-    width: 29px;
-    height: 27px;
-    line-height: 40px;
-    text-transform: uppercase;
-    font-size: 1.1em;
-    margin-left: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    left: -300px;
+    top: 0;
+    margin: -20px;
+    padding: 75px 50px 50px;
+    background: #cdcdcd;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translateX(0%);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
-  .nav-container {
-    max-width: 390px;
-    margin: 0 auto;
-  }
-  nav ul li a {
-    display: inline;
-    line-height: 50px;
-    color: #f1eaea;
-    text-decoration: none;
+  .menu-container input:checked ~ .menu {
+    transform: translateX(100%);
   }
   .h1-hero {
     position: absolute;
@@ -760,6 +695,7 @@ body {
     top: 2779px;
     margin-left: 20px;
     height: 180px;
+    width: 180px;
   }
   .column-skill {
     float: left;
@@ -907,6 +843,32 @@ body {
     height: 2959px;
     background: #171717;
   }
+  .menu-container {
+    width: 80%;
+  }
+  .menu-container a {
+    color: #cdcdcd;
+  }
+  .menu-container input {
+    display: none;
+  }
+  /* Burger menu */
+  .menu-container span {
+    display: none;
+  }
+  .menu {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu ul {
+    display: flex;
+    padding: 0;
+  }
+  .menu li {
+    padding: 0 10px;
+  }
 }
 @media all and (min-width: 1200px) and (max-width: 2560px) {
   .html,
@@ -920,5 +882,31 @@ body {
     width: 1300px;
     height: 2959px;
     background: #171717;
+  }
+  .menu-container {
+    width: 80%;
+  }
+  .menu-container a {
+    color: #cdcdcd;
+  }
+  .menu-container input {
+    display: none;
+  }
+  /* Burger menu */
+  .menu-container span {
+    display: none;
+  }
+  .menu {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu ul {
+    display: flex;
+    padding: 0;
+  }
+  .menu li {
+    padding: 0 20px;
   }
 }/*# sourceMappingURL=style.css.map */

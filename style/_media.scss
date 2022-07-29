@@ -11,27 +11,27 @@
                                  height: 2999px;
                                  background: #171717;
                              }
-                             .brand {
+                             .menu-container {
+                                 flex-direction: column;
+                                 align-items: flex-start;
+                             }
+                             .menu {
                                  position: absolute;
-                                 /*     padding-left: 20px;
-        */
-                                 float: left;
-                                 width: 29px;
-                                 height: 27px;
-                                 line-height: 40px;
-                                 text-transform: uppercase;
-                                 font-size: 1.1em;
-                                 margin-left: 40px;
+                                 box-sizing: border-box;
+                                 width: 300px;
+                                 left: -300px;
+                                 top: 0;
+                                 margin: -20px;
+                                 padding: 75px 50px 50px;
+                                 background: #cdcdcd;
+                                 -webkit-font-smoothing: antialiased;
+                                 /* to stop flickering of text in safari */
+                                 transform-origin: 0% 0%;
+                                 transform: translateX(0%);
+                                 transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
                              }
-                             .nav-container {
-                                 max-width: 390px;
-                                 margin: 0 auto;
-                             }
-                             nav ul li a {
-                                 display: inline;
-                                 line-height: 50px;
-                                 color: #f1eaea;
-                                 text-decoration: none;
+                             .menu-container input:checked~.menu {
+                                 transform: translateX(100%);
                              }
                              .h1-hero {
                                  position: absolute;
@@ -148,6 +148,7 @@
                                  top: 2779px;
                                  margin-left: 20px;
                                  height: 180px;
+                                 width: 180px;
                              }
                              .column-skill {
                                  float: left;
@@ -296,6 +297,32 @@
                                  height: 2959px;
                                  background: #171717;
                              }
+                             .menu-container {
+                                 width: 80%;
+                             }
+                             .menu-container a {
+                                 color: #cdcdcd;
+                             }
+                             .menu-container input {
+                                 display: none;
+                             }
+                             /* Burger menu */
+                             .menu-container span {
+                                 display: none;
+                             }
+                             .menu {
+                                 position: relative;
+                                 width: 100%;
+                                 display: flex;
+                                 justify-content: space-between;
+                             }
+                             .menu ul {
+                                 display: flex;
+                                 padding: 0;
+                             }
+                             .menu li {
+                                 padding: 0 10px;
+                             }
                          }
                          
                          @media all and (min-width: 1200px) and (max-width: 2560px) {
@@ -310,5 +337,31 @@
                                  width: 1300px;
                                  height: 2959px;
                                  background: #171717;
+                             }
+                             .menu-container {
+                                 width: 80%;
+                             }
+                             .menu-container a {
+                                 color: #cdcdcd;
+                             }
+                             .menu-container input {
+                                 display: none;
+                             }
+                             /* Burger menu */
+                             .menu-container span {
+                                 display: none;
+                             }
+                             .menu {
+                                 position: relative;
+                                 width: 100%;
+                                 display: flex;
+                                 justify-content: space-between;
+                             }
+                             .menu ul {
+                                 display: flex;
+                                 padding: 0;
+                             }
+                             .menu li {
+                                 padding: 0 20px;
                              }
                          }
