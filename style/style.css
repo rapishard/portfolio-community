@@ -866,6 +866,52 @@ body {
     padding: 0 10px;
   }
 }
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+  .html,
+body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 112px;
+    margin-top: 28px;
+    position: relative;
+    width: 1300px;
+    height: 2959px;
+    background: #171717;
+  }
+  .menu {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-container {
+    width: 80%;
+  }
+  .menu-container a {
+    color: #cdcdcd;
+  }
+  .menu-container input {
+    display: none;
+  }
+  /* Burger menu */
+  .menu-container span {
+    display: none;
+  }
+  .menu {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu ul {
+    display: flex;
+    padding: 0;
+  }
+  .menu li {
+    padding: 0 10px;
+  }
+}
 @media all and (min-width: 1200px) and (max-width: 2500px) {
   .html,
 body {
